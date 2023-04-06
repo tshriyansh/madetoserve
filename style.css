@@ -1,0 +1,88 @@
+*{
+	top: 0;
+	left: 0;
+}
+body{
+	height: 150vh;
+	top: 0;
+	left: 0;
+	background-color: rgb(218, 218, 218);
+}
+main{
+	/* margin-top: -1rem; */
+	background-image: url(/sources/main.jpg);
+	height: 90vh;
+	width: auto;
+	background-size: cover;
+}
+nav{
+	/* color: black; */
+	/* background-color: midnightblue; */
+	height: 3rem;
+	backdrop-filter: blur(10px);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.2rem;
+	/* text-shadow: 2px 0px 3px gray; */
+	/* display: flex; */
+}
+.nav-part-one{
+	width: 70%;
+}
+.logo{
+	font-size: 30px;
+	color: white;
+}
+.ul{
+	display: flex;
+	justify-content: space-around;
+}
+.li{
+	z-index: 1;
+	list-style-type: none;
+	margin-top: 1rem;
+}
+.li a{
+	color: black;
+	text-decoration: none;
+}
+.front-image {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 1rem;
+	height: 18rem;
+	width: 100%;
+	border: 2px solid black;
+}
+.verse-p{
+	margin-top: 5rem;
+	color: black;
+	font-size: 3rem;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: bolder;
+	word-spacing: 1rem;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 2px gray;
+}
+.verse{
+	width: 70%;
+	padding: 2rem;
+}
+.main-image{
+	box-shadow: 0px 0px 5px 5px rgb(193, 212, 255);
+	height: inherit;
+	width: 20;
+	margin: 0rem 1rem;
+	background-size: contain;
+}
+/* -------------------------------------------------------------------------------------------- */
+/* i m starting cards from here  */
+.main-cards{
+	height: 30rem;
+	/* border: 2px solid blue; */
+	background-color: rgb(218, 218, 218);
+	display: flex;
+	justify-content: space-around;
+}
+.card{
+	margin-top: 1rem;
+}
